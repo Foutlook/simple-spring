@@ -1,15 +1,15 @@
 package com.foutin.simple.ioc.aop;
 
-import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 
+import java.lang.reflect.AccessibleObject;
 import java.lang.reflect.Method;
 
 /**
  * @author xingkai.fan
  * @date 2019-09-14
  */
-public class ReflectiveMethodInvocation implements MethodInterceptor {
+public class ReflectiveMethodInvocation implements MethodInvocation {
 
     protected Object target;
 
@@ -24,8 +24,29 @@ public class ReflectiveMethodInvocation implements MethodInterceptor {
         this.arguments = arguments;
     }
 
+
     @Override
-    public Object invoke(MethodInvocation methodInvocation) throws Throwable {
-        return null;
+    public Method getMethod() {
+        return method;
+    }
+
+    @Override
+    public Object[] getArguments() {
+        return arguments;
+    }
+
+    @Override
+    public Object proceed() throws Throwable {
+        return method.invoke(target, arguments);
+    }
+
+    @Override
+    public Object getThis() {
+        return target;
+    }
+
+    @Override
+    public AccessibleObject getStaticPart() {
+        return method;
     }
 }

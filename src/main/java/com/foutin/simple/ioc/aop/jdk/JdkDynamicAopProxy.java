@@ -2,6 +2,7 @@ package com.foutin.simple.ioc.aop.jdk;
 
 import com.foutin.simple.ioc.aop.AbstractAopProxy;
 import com.foutin.simple.ioc.aop.AdvisedSupport;
+import com.foutin.simple.ioc.aop.ReflectiveMethodInvocation;
 import org.aopalliance.intercept.MethodInterceptor;
 
 import java.lang.reflect.InvocationHandler;
