@@ -1,10 +1,10 @@
 package com.foutin.simple.ioc.context;
 
-import com.foutin.simple.ioc.bean.BeanDefinition;
-import com.foutin.simple.ioc.factory.AbstractBeanFactory;
-import com.foutin.simple.ioc.factory.AutowireCapableBeanFactory;
-import com.foutin.simple.ioc.io.ResourceLoader;
-import com.foutin.simple.ioc.xml.XmlBeanDefinitionReader;
+import com.foutin.simple.ioc.beans.BeanDefinition;
+import com.foutin.simple.ioc.beans.factory.AbstractBeanFactory;
+import com.foutin.simple.ioc.beans.factory.AutowireCapableBeanFactory;
+import com.foutin.simple.ioc.beans.io.ResourceLoader;
+import com.foutin.simple.ioc.beans.xml.XmlBeanDefinitionReader;
 
 import java.util.Map;
 

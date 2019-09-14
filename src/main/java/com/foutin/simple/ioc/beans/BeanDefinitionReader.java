@@ -1,4 +1,4 @@
-package com.foutin.simple.ioc.bean;
+package com.foutin.simple.ioc.beans;
 
 /**
  * 从配置中读取BeanDefinition的类

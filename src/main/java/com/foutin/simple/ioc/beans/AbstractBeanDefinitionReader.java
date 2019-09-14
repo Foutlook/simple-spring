@@ -1,6 +1,6 @@
-package com.foutin.simple.ioc.bean;
+package com.foutin.simple.ioc.beans;
 
-import com.foutin.simple.ioc.io.ResourceLoader;
+import com.foutin.simple.ioc.beans.io.ResourceLoader;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,7 +1,7 @@
 package com.foutin.simple.ioc.context;
 
-import com.foutin.simple.ioc.bean.BeanPostProcessor;
-import com.foutin.simple.ioc.factory.AbstractBeanFactory;
+import com.foutin.simple.ioc.beans.BeanPostProcessor;
+import com.foutin.simple.ioc.beans.factory.AbstractBeanFactory;
 
 import java.util.List;
 

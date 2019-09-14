@@ -1,4 +1,4 @@
-package com.foutin.simple.ioc.bean;
+package com.foutin.simple.ioc.beans;
 
 /**
  * bean标签属性,用于bean的属性注入

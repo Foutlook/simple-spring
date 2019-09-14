@@ -1,10 +1,10 @@
-package com.foutin.simple.ioc.xml;
+package com.foutin.simple.ioc.beans.xml;
 
-import com.foutin.simple.ioc.bean.AbstractBeanDefinitionReader;
-import com.foutin.simple.ioc.bean.BeanDefinition;
-import com.foutin.simple.ioc.bean.BeanReference;
-import com.foutin.simple.ioc.bean.PropertyValue;
-import com.foutin.simple.ioc.io.ResourceLoader;
+import com.foutin.simple.ioc.beans.AbstractBeanDefinitionReader;
+import com.foutin.simple.ioc.beans.BeanDefinition;
+import com.foutin.simple.ioc.beans.BeanReference;
+import com.foutin.simple.ioc.beans.PropertyValue;
+import com.foutin.simple.ioc.beans.io.ResourceLoader;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

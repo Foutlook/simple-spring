@@ -1,9 +1,9 @@
-package com.foutin.simple.ioc.factory;
+package com.foutin.simple.ioc.beans.factory;
 
 import com.foutin.simple.ioc.aop.BeanFactoryAware;
-import com.foutin.simple.ioc.bean.BeanDefinition;
-import com.foutin.simple.ioc.bean.BeanReference;
-import com.foutin.simple.ioc.bean.PropertyValue;
+import com.foutin.simple.ioc.beans.BeanDefinition;
+import com.foutin.simple.ioc.beans.BeanReference;
+import com.foutin.simple.ioc.beans.PropertyValue;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

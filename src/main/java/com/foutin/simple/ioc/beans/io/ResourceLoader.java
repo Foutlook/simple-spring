@@ -1,4 +1,4 @@
-package com.foutin.simple.ioc.io;
+package com.foutin.simple.ioc.beans.io;
 
 import java.net.URL;
 

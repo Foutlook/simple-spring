@@ -1,4 +1,4 @@
-package com.foutin.simple.ioc.bean;
+package com.foutin.simple.ioc.beans;
 
 /**
  * 组装bean类，保存在BeanFactory中，包装bean的实体

@@ -1,7 +1,7 @@
-package com.foutin.simple.ioc.bean;
+package com.foutin.simple.ioc.beans;
 
 /**
- * bean 引用类
+ * beans 引用类
  *
  * @author xingkai.fan
  * @date 2019-09-01

@@ -1,7 +1,7 @@
-package com.foutin.simple.ioc.factory;
+package com.foutin.simple.ioc.beans.factory;
 
-import com.foutin.simple.ioc.bean.BeanDefinition;
-import com.foutin.simple.ioc.bean.BeanPostProcessor;
+import com.foutin.simple.ioc.beans.BeanDefinition;
+import com.foutin.simple.ioc.beans.BeanPostProcessor;
 
 import java.util.*;
 
@@ -24,7 +24,7 @@ public class AbstractBeanFactory implements BeanFactory {
 
         BeanDefinition beanDefinition = beanDefinitionMap.get(name);
         if (beanDefinition == null) {
-            throw new IllegalArgumentException("NO bean named " + name + "is defined");
+            throw new IllegalArgumentException("NO beans named " + name + "is defined");
         }
         Object bean = beanDefinition.getBean();
         if (bean == null) {

@@ -1,4 +1,4 @@
-package com.foutin.simple.ioc.factory;
+package com.foutin.simple.ioc.beans.factory;
 
 /**
  * bean容器

@@ -1,6 +1,6 @@
 package com.foutin.simple.ioc.aop;
 
-import com.foutin.simple.ioc.factory.BeanFactory;
+import com.foutin.simple.ioc.beans.factory.BeanFactory;
 
 /**
  * @author xingkai.fan
